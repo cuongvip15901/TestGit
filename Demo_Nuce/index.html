@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CNTT NUCE</title>
+	<!-- link css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- header top-->
+	<div class="bg-top navbar-light">
+		<div class="container">
+			<!-- On extra small devices, it will automatically stack-->
+			<div class="row d-flex ">
+				<!-- automatically scale 4 columns when sreen = medium -->
+				<div class="col-md-4 d-flex py-2 pl-0">
+					<!-- logo NUCE -->
+					<a class="navbar-brand" href="index.html" >
+						<img src="img/fitnuce.jpg" width="100"> 
+					</a>				
+				</div>
+
+				<!-- automatically scale 8 columns when sreen = medium -->
+				<div class="col-lg-8 d-block ">
+					<div class="row d-flex ">
+						<div class="col-md py-md-4  ">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" placeholder="Enter Email" id="email">
+						</div>
+
+						<div class="col-md py-md-4 ">
+							<div class="text">
+								<span>Call</span><br>
+								<span>Call Us: + 1235 2355 98</span>
+							</div>						
+						</div>											
+					</div>				
+				</div>
+			</div>
+		</div>
+
+		<!-- Navigation  -->
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#273c75 !important; ">
+
+			<!-- modify navbar center -->
+			<div class="container-fluid ">
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarBotResponsive">
+				<!-- icon menu-->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- collapse content -->			
+			<div class="collapse navbar-collapse" id="navbarBotResponsive">
+				<!-- links with margin right auto -->
+				<!--  Navbar links -->
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link  ">Trang chủ</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Giới thiệu</a></li>
+					<li class="nav-item"><a href="courses.html" class="nav-link">Đào tạo</a></li>
+					<li class="nav-item"><a href="teacher.html" class="nav-link">Nghiên cứu</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Cơ cấu tổ chức</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Tin tức-Sự kiện</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Góc sinh viên</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Cựu sinh viên</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Tuyến sinh</a></li>
+				</ul>
+			</div>
+
+		<!-- 
+		<form action="#" class="form-inline ">
+			<div class="form-group d-flex">
+
+				<input type="search" class="form-control mt-2 mb-2 mr-2 " placeholder="Search...">
+				<button class="btn mt-2 mb-2 btn-primary"  type="submit">Search</button>
+			</div>
+		</form>
+	-->
+
+</div>
+</nav>		
+
+<!-- End Nav -->
+
+<!-- Carousel bang chuyen truot qua truot lai -->
+<div id="slides" class="carousel slide" data-ride ="carousel">
+	<!-- co duong ke chinh chuyen anh 
+		run from 0 => 3   -->
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to ="0" class="active"></li>
+			<li data-target="#slides" data-slide-to ="1" class="active"></li>
+			<li data-target="#slides" data-slide-to ="2" class="active"></li>
+			<li data-target="#slides" data-slide-to ="3" class="active"></li>			
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class =" img-fluid " src="css/73190739_10156692652177776_6063834213759582208_n.jpg">
+				<div class="carousel-caption">
+					<h1 >Khoa Công Nghệ Thông Tin</h1>
+					<h3>Trường Đại Học Xây Dựng</h3>
+					<button type="button" class="btn btn-outline-warning btn-lg">Contact Us</button>
+					<button type="button" class="btn btn-outline-info btn-lg " >More Info</button>
+				</div>
+			</div>
+			<div class="carousel-item ">
+				<img src="img/binary-1538717_1280.jpg">
+			</div>	
+			<div class="carousel-item ">
+				<img src="img/city-3213676_1280.jpg">
+			</div>
+			<div class="carousel-item ">
+				<img src="img/bg_2.jpg">
+			</div>
+		</div>
+
+		<!-- jumpbotron 
+		<div class="container-fluid">
+			<div class="jumbotron">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+					<p> Truong dai hoc Xay Dung chuyen dao tao cac ki su chat luong cao</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+					<a href="#">
+						<button type="button" class="btn btn-outline-secondary">Thong tin</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	-->
+	<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:15px;background-color:#273c75 ;"></div>
+	<div class="container-fluid padding">
+		<div class="row newspaper text-center p-4">
+
+			<div class="col-12">
+				<h1>TIN MỚI NHẤT</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- section 1 -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-md-3 bg-danger">
+				<i class="fab fa-react">
+					<h3> Thực tập</h3>
+					<p>I love you</p>
+				</i>
+			</div>
+
+			<div class="col-md-3 bg-info">
+				<i class="fab fa-react">
+					<h3> Nghiên cứu</h3>
+					<p>I love you</p>
+				</i>
+			</div>	
+			<div class="col-md-3 bg-secondary">
+				<i class="fab fa-react">
+					<h3> Tuyến dụng</h3>
+					<p>I love you</p>
+				</i>
+			</div>	
+			<div class="col-md-3 bg-dark">
+				<i class="fab fa-react">
+					<h3> Tốt nghiệp</h3>
+					<p>I love you</p>
+				</i>
+			</div>	
+
+		</div>
+	</div>
+
+	<!--section 2 -->
+	<div class="container-fluid padding">
+		<!-- responsive image -->
+		<div class="row padding">
+			<div class="col-md-5 d-flex order-last  ">
+				<img src="css/73190739_10156692652177776_6063834213759582208_n.jpg" class="img-fluid ">
+			</div>
+
+			<!-- what we bring -->
+			<div class="col-md-7 py-5 pr-md-4 ">
+				<h2 class="mb-4" style="margin-left: 30%">Những gì FIT mang lại</h2>
+				<p style="margin-left: 3em;">Với đội ngũ giảng viên chất lượng cùng với nhiều năm kinh nghiệm. FIT tin rằng có thể mang lại cho các bạn sinh viên những kiến thức tốt nhất với sự nhiệt huyết trong từng bài giảng.</p>
+
+				<!--detail what we can bring -->
+				<div class="row padding mt-5">
+
+					<!-- first benefit -->
+					<div class="col-md-12 col-lg-6">
+						<div class="services d-flex">
+							<i class="fab fa-react"></i>					
+							<div class="text ">
+								<h3>Kiến thức</h3>
+								<p>Thiết kế các hệ thống xử lý tính toán phức tạp, các phần mềm có chất lượng khoa học và công nghệ cao.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- second benefit -->
+					<div class="col-md-12 col-lg-6">
+						<div class="services d-flex">
+							<i class="fab fa-react"></i>					
+							<div class="text ">
+								<h3>Kĩ năng</h3>
+								<p> Hình thành ý tưởng, thiết kế ý tưởng, triển khai và vận hành ý tưởng trong bối cảnh nhu cầu xã hội và doanh nghiệp.</p>
+							</div>
+
+						</div>
+					</div>	
+
+					<!-- third benefit -->
+					<div class="col-md-12 col-lg-6">
+						<div class="services d-flex">
+							<i class="fab fa-react"></i>					
+							<div class="text ">
+								<h3>Học tập</h3>
+								<p>Được tham gia miễn phí nhiều hóa học liên kết với các công ty hoàn toàn miễn phí tạo bước đệm cho thành công vượt bậc trong tương lai.</p>
+							</div>
+						</div>
+					</div>	
+
+					<!-- four benefit -->
+					<div class="col-md-12 col-lg-6">
+						<div class="services d-flex">
+							<i class="fab fa-react"></i>					
+							<div class="text ">
+								<h3>Việc làm</h3>
+								<p>Có nhiều cơ hội làm việc tại các lĩnh vực Khoa học Máy tính, công nghệ thông tin trong và ngoài nước.</p>
+							</div>
+						</div>					
+					</div>	
+
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>

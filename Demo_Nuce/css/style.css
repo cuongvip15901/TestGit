@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/PT+Serif?query=serif&selection.family=PT+Serif);
+*{
+	margin: 0 ;
+	padding: 0 ;
+}
+
+/* Media Query chinh cho cac device khac nhau*/
+
+
+
+
+
+
+html {
+	font-family: sans-serif ;
+	
+}
+
+body{
+	font-size: 20px ;
+
+}
+
+.carousel-inner img {
+	width: 100%;		
+}
+
+.carousel-caption {
+	position: absolute;
+	top:30% ;
+	left: 0%;
+	right: 70%;
+}
+
+.carousel-h1 {
+	font-size: 400%; 
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #000;
+}
+
+.carrousel-h3 {
+	font-size: 400%;
+	font-weight: bold;
+}
+.btn-outline-warning {
+	background-color: #e58e26;
+	border: 1px solid white;
+	color: white;
+}
+.btn-outline-info {
+	background-color: #1e3799;
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-outline-warning:hover {
+	background-color: #a4b0be;
+	border: 1px solid white;
+	color: #d35400; 
+}
+
+.fa-react  {
+		font-size: 3em;
+		margin: 1em;
+}
+
+.services {
+		margin-bottom: 30px;
+}
+
+
+
+
